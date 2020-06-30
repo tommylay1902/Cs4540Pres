@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncEx", "AsyncEx\AsyncEx.csproj", "{FEEF57F8-0131-4E6F-AA51-D9DFECD7F32C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncEx", "AsyncEx\AsyncEx.csproj", "{FEEF57F8-0131-4E6F-AA51-D9DFECD7F32C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncEx", "SyncEx\SyncEx.csproj", "{320D1C74-5DAE-4519-86D3-C3CFC04623CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SyncEx", "SyncEx\SyncEx.csproj", "{320D1C74-5DAE-4519-86D3-C3CFC04623CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAsyncEx", "SimpleAsyncEx\SimpleAsyncEx.csproj", "{57E4E625-DF9E-4A3D-ACB9-C3FF7AFA48FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleAsyncEx", "SimpleAsyncEx\SimpleAsyncEx.csproj", "{57E4E625-DF9E-4A3D-ACB9-C3FF7AFA48FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskExample", "TaskExample\TaskExample.csproj", "{8D4E32D7-2D20-4286-A0CE-A712456F1226}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskExample", "TaskExample\TaskExample.csproj", "{8D4E32D7-2D20-4286-A0CE-A712456F1226}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonMistakeCodingExample", "CommonMistakeCodingExample\CommonMistakeCodingExample.csproj", "{23826ADA-9FBF-42A5-92CD-CF215ACD77D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{8D4E32D7-2D20-4286-A0CE-A712456F1226}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D4E32D7-2D20-4286-A0CE-A712456F1226}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D4E32D7-2D20-4286-A0CE-A712456F1226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23826ADA-9FBF-42A5-92CD-CF215ACD77D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23826ADA-9FBF-42A5-92CD-CF215ACD77D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23826ADA-9FBF-42A5-92CD-CF215ACD77D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23826ADA-9FBF-42A5-92CD-CF215ACD77D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
