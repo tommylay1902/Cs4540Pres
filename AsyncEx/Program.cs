@@ -9,13 +9,13 @@ namespace AsyncEx
         static void Main(string[] args)
         {
             Console.WriteLine("Step 1: You are in main thread");
-            var someTask = CallTimeConsumeTask();
+            var someTask = CallTimeConsumeTaskAsync();
             MyMethod();
             Console.WriteLine("Step 8: Main thread ended");
             Console.ReadLine();
         }
 
-        static async Task CallTimeConsumeTask()
+        static async Task CallTimeConsumeTaskAsync()
         {
             Console.WriteLine("Step 2: CallTimeConsumeTask() started");
             await Task.Run(new Action(TimeConsumingTask));

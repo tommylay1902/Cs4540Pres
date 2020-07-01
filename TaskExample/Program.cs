@@ -20,7 +20,7 @@ namespace SimpleAsyncExample
 
         static async Task<int> CalculationAsync()
         {
-            await Task.Delay(3000);
+            await Task.Delay(500000000);
             Console.WriteLine("Completed Calculation");
             return 1;
         }
